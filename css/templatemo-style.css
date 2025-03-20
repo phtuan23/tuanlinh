@@ -163,12 +163,12 @@ https://templatemo.com/tm-516-known
   }
 
   #team,
-  #testimonial {
+  #customers {
     background: #f9f9f9;
   }
 
   #team, 
-  #testimonial {
+  #customers {
     text-align: center;
   }
   
@@ -373,8 +373,9 @@ https://templatemo.com/tm-516-known
 
   .home-slider .item {
     background-repeat: no-repeat;
-    background-attachment: local;
+    /* background-attachment: local; */
     background-size: cover;
+    background-position: center;
     height: 650px;
   }
   
@@ -382,19 +383,13 @@ https://templatemo.com/tm-516-known
   .caption h3 a:hover { color: #FF3; }
 
   .home-slider .item-first {
-    background-image: url(../images/slider-image1.jpg);
+    background-image: url(../images/banner1.jpg);
 	background-position: center;
   }
 
   .home-slider .item-second {
-    background-image: url(../images/slider-image2.jpg);
+    background-image: url(../images/banner2.jpg);
   }
-
-  .home-slider .item-third {
-    background-image: url(../images/slider-image3.jpg);
-  }
-
-
 
   /*---------------------------------------
       FEATURE              
@@ -623,10 +618,10 @@ https://templatemo.com/tm-516-known
 
 
   /*---------------------------------------
-      TESTIMONIAL             
+      customers             
   -----------------------------------------*/
 
-  #testimonial .item {
+  #customers .item {
     background: #ffffff;
     margin: 20px 0;
     padding: 4em 3em;
@@ -634,12 +629,12 @@ https://templatemo.com/tm-516-known
   }
 
   #courses .col-md-4,
-  #testimonial .col-md-4 {
+  #customers .col-md-4 {
     display: block;
     width: 100%;
   }
 
-  #testimonial .item > p {
+  #customers .item > p {
     font-size: 16px;
     line-height: 26px;
   }
@@ -966,7 +961,7 @@ https://templatemo.com/tm-516-known
       font-size: 1.8em;
     }
 
-    #testimonial .item {
+    #customers .item {
       padding: 2em;
     }
 
